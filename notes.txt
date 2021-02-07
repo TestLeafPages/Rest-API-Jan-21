@@ -1,0 +1,62 @@
+Cucumber (BDD)
+=============
+
+Technical Team (Developers, Tester, DB Engineers, Architects)
+Non Technical Team(BA/ Product owner/ client)
+
+Live Document (Features -> Gherkin )
+
+BDD Framework
+
+KeyWork :
+	1. Feature (module)
+	2. Scenario / Scenario Outline 
+	3. steps -> Given, when/But, Then & And 
+	4. Example
+	5. Background 
+
+Hooks
+	@Before
+	@After
+1) Create Feature File 
+	- Create a package followed by a Feature file under the package
+	- Create Scenario (For a Test Cases)
+	- Create list of steps in sequence (Given, when/But, Then & And )
+2) Create Step definition for step in Scenario 
+
+
+@Before --> Scenario --> @After
+
+
+1) Matschie
+
+    	a) Objective: Only REST Automation!!
+	b) Components: Rest Assured + TestNG (Driver) + Cucumber (BDD) + Allure (Report)
+	c) Maven Project: Build Tool
+	d) Flavors: Cucumber (Positive - Happy Scenarios) + Services (Positive + Nagative -> Edge Cases)
+
+
+SetUp Java Home in system(JDK and Jre)
+Set Environment variable for maven binary file
+
+		https://maven.apache.org/download.cgi
+
+
+Go to Project path(pom.xml) and run in CMD ->  mvn allure:serve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
